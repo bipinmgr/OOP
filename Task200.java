@@ -57,7 +57,7 @@ public class Task3 {
     }
 }
 
-class B{
+class First{
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
 
@@ -80,7 +80,7 @@ class B{
     }
 
 }
-class Cc{
+class Second{
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
@@ -98,7 +98,7 @@ class Cc{
         }
     }
 }
-class Dd{
+class Third{
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
 
@@ -122,7 +122,7 @@ class Dd{
 8. Write a JAVA program to input any alphabet and check whether it is vowel or consonant.
 9. Write a JAVA program to input any character and check whether it is alphabet, digit or special
 character.*/
-class Even{
+class Fourth{
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
@@ -137,7 +137,7 @@ class Even{
         }
     }
 }
-class Alphabet{
+class Fifth{
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
@@ -152,7 +152,7 @@ class Alphabet{
         }
     }
 }
-class Leap{
+class Sixth{
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
@@ -182,7 +182,7 @@ class Vowel{
     }
 }
 
-class Alp_dig_sp{
+class Eight{
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
@@ -207,7 +207,7 @@ class Alp_dig_sp{
 13. Write a JAVA program to count total number of notes in given amount.
 14. Write a JAVA program to input angles of a triangle and check whether triangle is valid or not.
 15. Write a JAVA program to input all sides of a triangle and check whether triangle is valid or not.*/
-class Upper{
+class Nine{
     public static void main(String[] args) {
         Scanner  scanner=new Scanner(System.in);
 
@@ -227,7 +227,7 @@ class Upper{
     }
 }
 /*11. Write a JAVA program to input week number and print weekday.*/
-class Week{
+class Ten{
     public static void main(String[] args) {
         Scanner  scanner=new Scanner(System.in);
 
@@ -260,7 +260,7 @@ class Week{
 
 }
 //12. Write a JAVA program to input month number and print number of days in that month.
-class Month{
+class Eleven{
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
 
@@ -308,7 +308,7 @@ class Month{
     }
 }
 
-class Triangle{
+class Twelve{
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
 
@@ -329,7 +329,7 @@ class Triangle{
         }
     }
 }
-class Side{
+class Thirteen{
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
 
@@ -350,7 +350,7 @@ class Side{
         }
     }
 }
-class Note{
+class Fourteen{
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
 
@@ -382,7 +382,7 @@ class Note{
 /*16. Write a JAVA program to check whether the triangle is equilateral, isosceles or scalene triangle.
  */
 
-class Determine_triangle{
+class Fifteen{
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
 
@@ -405,7 +405,7 @@ class Determine_triangle{
     }
 }
 //17.
-class RootsOfQuadratic {
+class Sixteen {
     public static void main(String args[]) {
         double secondRoot , firstRoot;
         Scanner sc = new Scanner(System.in);
@@ -441,7 +441,7 @@ class RootsOfQuadratic {
 
 
 //18. Write a JAVA program to calculate profit or loss.
-class Profit_loss{
+class Seventeen{
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
 
@@ -468,7 +468,7 @@ Percentage >= 70% : Grade C
 Percentage >= 60% : Grade D
 Percentage >= 40% : Grade E
 Percentage < 40% : Grade F*/
-class Marks{
+class Eighteen{
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
 
@@ -516,7 +516,7 @@ class Marks{
 Sundipsil
         Sundipsil Thapa
         import java.io.*;
-class CountNotes {
+class Ninteen {
     public static void main(String args[])throws IOException
     {
         // create object of buffer class.
@@ -565,7 +565,7 @@ according to following:
 Basic Salary <= 10000 : HRA = 20%, DA = 80%
 Basic Salary <= 20000 : HRA = 25%, DA = 90%
 Basic Salary > 20000 : HRA = 30%, DA = 95%*/
-class Salary{
+class Twenty{
     public static void main(String[] args) {
         double b_salary, hra, da, gross;
         Scanner scanner= new Scanner(System.in);
@@ -597,7 +597,7 @@ For next 100 units Rs. 0.75/unit
 For next 100 units Rs. 1.20/unit
 For unit above 250 Rs. 1.50/unit
 An additional surcharge of 20% is added to the bill*/
-class Electricity{
+class Twenty_one{
     public static void main(String[] args) {
         double units, bill_amount;
         Scanner scanner= new Scanner(System.in);
