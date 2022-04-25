@@ -105,11 +105,8 @@ class Third{
         System.out.println("Enter the first no: ");
         double a=s.nextDouble();
 
-        if (a%5==0){
-            System.out.println(a+" is divisible by 5");
-        }
-        else if (a%11==0){
-            System.out.println(a+" is divisible by 11");
+        if (a%5==0 && a%11==0){
+            System.out.println(a+" is divisible by 5 and 11");
         }
         else{
             System.out.println(a+" is not divisible by 5 and 11");
@@ -158,6 +155,9 @@ class Sixth{
 
         System.out.println("Enter the year: ");
         int a = s.nextInt();
+
+        System.out.println("Enter days");
+        int days=s.nextInt();
 
         if (a % 4 == 0 && a % 100 != 0 || a % 400 == 0) {
             System.out.println(a + "\t is leap year");
@@ -266,6 +266,9 @@ class Eleven{
 
         System.out.println("Enter the month number: ");
         int month=scanner.nextInt();
+
+        System.out.println("Enter the year");
+        int year=scanner.nextInt();
 
         switch(month){
             case 1 :
@@ -513,9 +516,8 @@ class Eighteen{
     }
 }
 
-Sundipsil
-        Sundipsil Thapa
-        import java.io.*;
+
+
 class Ninteen {
     public static void main(String args[])throws IOException
     {
@@ -599,7 +601,7 @@ For unit above 250 Rs. 1.50/unit
 An additional surcharge of 20% is added to the bill*/
 class Twenty_one{
     public static void main(String[] args) {
-        double units, bill_amount;
+        double units, bill_amount,sur_charge;
         Scanner scanner= new Scanner(System.in);
 
         System.out.println("enter the total units consumed");
@@ -607,16 +609,63 @@ class Twenty_one{
 
         if (units<=50){
             bill_amount=units*0.5;
+            sur_charge=0.2*bill_amount;
+
         }
         if (units>50 && units<=100){
             bill_amount=units*0.75;
+            sur_charge=0.2*bill_amount;
         }
         if (units>100 && units<=250){
             bill_amount=units*1.20;
+            sur_charge=0.2*bill_amount;
         }
         else {
             bill_amount=units*1.50;
+            sur_charge=0.2*bill_amount;
         }
-        System.out.println("The total bill amount is "+ bill_amount);
+        System.out.println("The total bill amount is "+ bill_amount+sur_charge);
+
+    }
+}
+
+
+class Question17{
+    public static void main(String[] args) {
+        double secondroot,firstroot;
+        Scanner sc=new Scanner(System.in);
+
+        System.out.println('Ehter the valueof a:');
+        double a=sc.nextDouble();
+
+        System.out.println('Ehter the valueof b:');
+        double b=sc.nextDouble();
+
+        System.out.println('Ehter the valueof c:');
+        double c=sc.nextDouble();
+
+         double determinant=(b*b)-(4*a*c);
+         double squart= Math.sqrt(determinant);
+
+        System.out.println(determinant);
+        if (determinant>0){
+            firstroot=(b-squart)/(2*a);
+            secondroot=(b-squart)/(a*2);
+
+            System.out.println("roots are ::")+firstroot+"and"+secondroot;
+
+        }
+        else if (determinant==0) {
+            System.out.println("Root is ::" + (-b) / (2 * a));
+        }
+        else{
+            double real=-b/(2*a);
+            double imaginary=Math.sqrt(-determinant)/(2*a);
+            System.out.println("root1=%.2f + %.2fi",real,imaginary);
+            System.out.println("\nroot2=%.2f2-%.2fi",real,imaginary)
+            ;
+        }
+
+
     }
 }
